@@ -1,0 +1,73 @@
+$theme-colors: (
+  "primary": #ffc107,
+  "nav-primary": #f4b700,
+  "secondary": #15a0c6,
+  "secondary-dark": #5296a5
+);
+
+.custom_shadow {
+  -webkit-box-shadow: 1px 2px 6px -3px #000000;
+  box-shadow: 1px 2px 6px -3px #000000;
+}
+.custom_button-shadow {
+  -webkit-box-shadow: 1px 1px 5px 0 #d6d8d7;
+  box-shadow: 1px 1px 5px 0 #d6d8d7;
+}
+.custom_table-button {
+  background: #ffc107 !important;
+  border: none !important;
+  color: black !important;
+}
+
+.custom_table-button:hover {
+  background: #daa60c !important;
+  border: none !important;
+  color: black !important;
+}
+.custom_canvas-shadow {
+  -webkit-box-shadow: 0px 0px 10px 2px #d6d8d7;
+  box-shadow: 0px 0px 10px 2px #d6d8d7;
+}
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.refresh-button{
+  background: none;
+  border: none;
+}
+
+body {
+  // overflow: hidden;
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial !important;
+}
+
+.b-sidebar {
+  --offset: 50px;
+  top: calc(var(--offset) + 1rem) !important;
+  height: calc(100% - 2rem - var(--offset)) !important;
+  border-radius: 1rem !important;
+  left: 1rem !important;
+}
+
+*{
+  // -webkit-user-select: text;
+  // -khtml-user-select: text;
+  // -moz-user-select: text;
+  // -ms-user-select: text;
+  // user-select: text;
+  // -webkit-text-size-adjust: none;
+}
+.modal .modal-fullscreen{
+  max-width: 95%;
+  width: 95%;
+}
+*:focus {
+  outline: 0 !important;
+}
+@import "bootstrap/scss/bootstrap.scss";
+@import "bootstrap-vue/src/index.scss";

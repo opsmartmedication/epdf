@@ -1,0 +1,41 @@
+{
+  "name": "eConsent",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "set BASE_URL=http://localhost:3111/&&nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/auth": "^4.9.1",
+    "@nuxtjs/auth-next": "5.0.0-1612791489.a5d8c28",
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/pwa": "^3.0.2",
+    "base64-arraybuffer": "^0.2.0",
+    "bootstrap": "^4.5.2",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.6.5",
+    "dotenv": "^10.0.0",
+    "jspdf": "^2.3.1",
+    "nuxt": "^2.15.4",
+    "pdf-lib": "^1.15.0",
+    "pdfjs-dist": "^2.5.207",
+    "qs": "^6.9.6",
+    "sass": "^1.32.6",
+    "v-idle": "^0.2.1",
+    "vue": "^2.6.12",
+    "vue-signature-pad": "^2.0.2",
+    "worker-loader": "^3.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-vue": "^7.4.1",
+    "node-sass": "^5.0.0",
+    "prettier": "^2.1.2",
+    "sass-loader": "^10.1.1"
+  }
+}
